@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">             
     <title>Злата Пальцева - Веб-разработчик </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -11,28 +13,28 @@
          <div class='logo'>Пальцева Злата</div>
          <div class="menu">
             <ul>
-                <li>Обо мне</li>
-                <li>Услуги</li>
-                <li>Кейсы</li>
-                <li>Прайс</li>
-                <li>Отзывы</li>
-                <li>Контакты</li>
+                <li><a href="#">Обо мне</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Кейсы</a></li>
+                <li><a href="#">Прайс</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Контакты</a></li>
                 
             </ul>            
          </div>
      </nav>
  </header>
- 
- <div class="main">
+ <main>
+ <section class="main">
    <div class="title">
     
      <h1>Привет <br>Я Пальцева Злата</h1>
      <h4>Фулл стек веб-разработчик</h4>
-     <input type="submit" value="Обо мне">
-     <input type="submit" value="Мои работы">    
+     <input type="button" value="Обо мне">
+     <input type="button" value="Мои работы">    
      
    </div>
-</div>
+</section>
  
  
  
@@ -42,8 +44,8 @@
     
      <h2>Обо мне</h2>
      <hr>
-     <img src="" alt="about">
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facilis placeat mollitia, iusto assumenda velit! Dolorum expedita nulla esse possimus.</p>
+     <img src="img/about.png" alt="about">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facilis placeat mollitia, iusto assumenda velit! Dolorum expedita nulla esse Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, ipsum.</p>
      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quae, odio nemo dolore voluptatibus error repellat ea? Dolor suscipit natus deleniti omnis accusantium nulla, facilis delectus numquam obcaecati est.</p>
      <input type="submit" value="Скачать резюме">
      
@@ -51,49 +53,48 @@
  
  
  <div class="i_can">
-  <div class="icons">
-   
     <h2>Что я умею</h2> 
-    <hr>
-   <img src="" alt="veb">
-   <h5>Веб-дизайн</h5>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quas doloribus nostrum soluta recusandae nesciunt.</p>
-    <img src="" alt="dev">
-    <h5>Разработка</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem voluptatum commodi possimus dolore dignissimos.</p>
-   <img src="" alt="CEO">
-   <h5>СЕО-Оптимизация</h5>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt accusantium adipisci, dicta illo.</p>
-    <img src="" alt="mark">
-    <h5>Маркетинг</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis a doloribus molestiae minus.</p>
-    
-  </div>
+    <img src="img/veb.png" alt="veb" class="iveb">
+    <img src="img/dev.png" alt="dev">
+    <img src="img/ceo.png" alt="CEO">
+    <img src="img/mark.png" alt="mark">
+    <h5 class="veb">Веб-дизайн</h5>
+    <h5 class="dev">Разработка</h5>
+    <h5 class="ceo">СЕО-Оптимизация</h5>   
+    <h5 class="mark">Маркетинг</h5>
+    <p class="vebt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis a doloribus molestiae minus.</p>
+    <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quas doloribus nostrum soluta recusandae nesciunt.</p>
+    <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quas doloribus nostrum soluta recusandae nesciunt.</p>
+    <p class="markt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quas doloribus nostrum soluta recusandae nesciunt.</p>
 </div>
  
  <div class="case">  
      
      <h2>Кейсы</h2>
-     <hr>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, saepe!</p>]
-     <img src="" alt="caseimg">
-     <h3>CLIENT:</h3>
-     <p>компания</p>
-     <h3>WEBSITE:</h3>
-     <p>ссылка</p>
-     <h3>Название проекта</h3>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur quidem voluptatibus sint, at eaque laborum! Magnam quidem, beatae eius!</p>
+     <p class="caseph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, saepe!</p>
+  <div class="downall">
+  
+      <div class="casedown">
+      <h3 class="client">CLIENT:</h3>
+      <p class="client">компания</p>
+      <h3 class="webs">WEBSITE:</h3>
+      <p>ссылка</p>
+      </div>
+      <div class="namep">
+      <h3>Название проекта</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aspernatur quidem voluptatibus sint, at eaque laborum! Magnam quidem, beatae 
+      </div>
+   </div>
      <input type="submit" value="visit live site">
- 
- </div>
+</div>
  
  <div class="price">
      
     <h2>Расчет стоимости</h2>
     
     <form action="#" name='price_1'>
-    <h3>Тип сайта</h3>
-    <select name="tip" id="tip">
+    <h3 class="tips">Тип сайта</h3>
+    <select name="tip" id="tip" class="tip">
         <option value="1"></option>
         <option value="2"></option>
         <option value="3"></option>
@@ -104,92 +105,91 @@
          <option value="2"></option>
          <option value="3"></option>
      </select>
-    <h3>Адаптивность</h3>
+   <h3>Адаптивность</h3>
     <select name="adapt" id="adapt">
         <option value="1"></option>
         <option value="2"></option>
         <option value="3"></option>
     </select>  
-    <hr>
+    <img src="../src/img/line2.png" alt="">
     <h4>Сроки <output name='price'></output></h4>
     <h4>Стоимость <output name='deadlines'></output></h4>
     </form>
-</div>
+     
+    </div>
+
  
  <div class="statist">
    
-    <div class="icons2">
     
      <h2>Немного статистики</h2>
-     <hr>
-     <img src="" alt="smile">
+     
+    <div class="statisttext">
+      <div class="smile">
+       <img src="img/smile.png" alt="smile">
        <h5>0</h5>
-       <p>счастливых клиентов</p>
-        <img src="" alt="hours">
-        <h5>0</h5>
+       <p >счастливых клиентов</p>
+       </div>
+       <div class="hours">
+       <img class="imgh" src="img/hours.png" alt="hours">
+       <h5>0</h5>
         <p>часов работы</p>
-       <img src="" alt="projects">
+        </div>
+        <div class="projects">
+        <img class="imgp" src="img/projects.png" alt="projects">
        <h5>0</h5>
        <p>проектов завершено</p>
-        <img src="" alt="reward">
-        <h5>0</h5>
+       </div>
+       <div class="reward">
+       <img src="img/rewards.png" alt="reward">
+       <h5>0</h5>
         <p>наград получено</p>
-    
-   </div>
+        </div>
+      
+    </div>  
+
    
  </div>
  
  <div class="reviews">
     <h2>Отзывы</h2>
-    <hr>
-    <ul>
-       
-        <li>
-          <img src="" alt="person1">  
+
+          <img src="img/person1.png" alt="person1">  
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, eius!</p>
           <p>Имя, должность</p>
-        </li>
-        
-        <li>
-             <img src="" alt="person2">  
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, eius!</p>
-          <p>Имя, должность</p>
-        </li>
-        
-        <li>
-         <img src="" alt="person3">  
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, eius!</p>
-          <p>Имя, должность</p>
-        </li>
-        
-    </ul>
+          <img class="dots" src="../src/img/dotor.png" alt="dotorange">
+          <img class="dots" src="../src/img/dot.png" alt="dot">
+          <img class="dots" src="../src/img/dot.png" alt="dot">
  </div>
- 
  <footer>
     <div class="inform">
        <h2>Мои контакты</h2>
-       <hr>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, incidunt.</p>
-        <img src="" alt="location">
-         <p>СПБ</p>
-        <img src="" alt="email">
-         <p>zlatapalceva@gmail.com</p>
-        <img src="" alt="phone">
-          <p>+7 999 999-99-99</p>
+       <p class="cont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, illum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, incidunt.</p>
+        <img src="img/geo.png" alt="location">
+        <img src="img/email.png" alt="email">
+        <img src="img/phone.png" alt="phone">
+        <div class="location">
+         <p class="contacts">СПБ</p>
+         </div>
+         <div class="email">
+         <p class="contacts">zlatapalceva@gmail.com</p>
+         </div>
+         <div class="tel">
+         <p class="contacts">+7 999 999-99-99</p>
+         </div>
         <h3>Оставьте мне сообщение</h3>
-          
+          <div class="formcont">
            <form action="#">
-             <input type="text" placeholder="Имя">    
-             <input type="text" placeholder="Email">    
-             <textarea placeholder="Сообщение" name="message" id="1" cols="70" rows="5"></textarea>   
-             <input type="submit" value='Отправить'>               
+             <input type="text" placeholder="Имя" id="name">    
+             <input type="text" placeholder="Email" id="email">    
+             <textarea placeholder="Сообщение" name="message" id="textarea" cols="100" rows="6"></textarea>                 
            </form>  
-           <a href="my facebook"><img src="" alt="facebook"></a>
-           <a href="my inst"><img src="" alt="inst"></a>
-           <a href="my vk"><img src="" alt="vk"></a>
+           </div>
+           <input type="submit" value='Отправить' id="send"> 
+         
                    
     </div>   
 </footer>
- 
+ </main>
 </body>
 </html>
